@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 import About from './components/About';
-import Portfolio from './components/Portfolio';
+import Projects from './components/Projects';
 import Contact from './components/Contact';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
             <nav className="navbar">
                 <ul className="navlist">
                     <li className="navitem"><a href="#about">About</a></li>
-                    <li className="navitem"><a href="#portfolio">Portfolio</a></li>
+                    <li className="navitem"><a href="#projects">Projects</a></li>
                     <li className="navitem"><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
@@ -24,8 +24,8 @@ function App() {
             <div id="about">
                 <About />
             </div>
-            <div id="portfolio">
-                <Portfolio />
+            <div id="projects">
+                <Projects />
             </div>
             <div id="contact">
                 <Contact />
