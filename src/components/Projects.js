@@ -3,7 +3,12 @@ import './Projects.css';
 
 function Projects() {
     return (
-        <p>2</p>
+        <div className="projectsSection">
+            <div className="projectsText">
+                <h1 className="projectsHeading">PROJECTS</h1>
+                <div className="projectsDivider"></div>
+            </div>
+        </div>
     );
 }
 

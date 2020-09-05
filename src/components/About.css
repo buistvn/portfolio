@@ -1,0 +1,27 @@
+.aboutSection {
+    display: flex;
+    justify-content: center;
+    padding: 64px;
+}
+
+.aboutText {
+    width: 60%;
+}
+
+.aboutHeading {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.aboutDivider {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 3px solid #EEEEEE;
+}
+
+.aboutParagraph {
+    font-size: 24px;
+    margin-top: 32px;
+}

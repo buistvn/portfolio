@@ -1,0 +1,44 @@
+.contactSection {
+    display: flex;
+    justify-content: center;
+    padding: 64px;
+    background-color: #555555;
+}
+
+.contactText {
+    text-align: center;
+    width: 60%;
+    color: #FFFFFF;
+}
+
+.contactHeading {
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.contactDivider {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 3px solid #FFFFFF;
+}
+
+.contactParagraph {
+    font-size: 24px;
+    margin-top: 32px;
+}
+
+.contactLinks {
+    display: grid;
+}
+
+.contactItem {
+    text-decoration: none;
+    font-size: 24px;
+    margin-top: 32px;
+    color: #FFFFFF;
+}
+
+i {
+    padding-right: 8px;
+}

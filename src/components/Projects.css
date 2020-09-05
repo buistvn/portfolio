@@ -1,0 +1,23 @@
+.projectsSection {
+    display: flex;
+    justify-content: center;
+    padding: 64px;
+    background-color: #EEEEEE;
+}
+
+.projectsText {
+    width: 60%;
+}
+
+.projectsHeading {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.projectsDivider {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 3px solid #333333;
+}

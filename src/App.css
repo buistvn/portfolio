@@ -1,54 +1,91 @@
-html, body, div, h1, h2, h3, h4, h5, h6, p {
-	margin: 0px;
-	padding: 0px;
-	border: 0px;
+html {
+    scroll-behavior: smooth;
+}
+
+body, div, h1, h2, h3, h4, h5, h6, p {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.navbar {
-    background-color: #333333;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.navlist {
     margin: 0px;
     padding: 0px;
-}
-
-.navitem {
-    display: inline-block;
-    list-style-type: none;
-    margin: 0px;
-    padding: 14px 16px;
-}
-
-.navitem a {
-    text-decoration: none;
-    color: #FFFFFF;
-}
-
-#home {
-    background-color: #21618C;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border: 0px;
 }
 
 .intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: #7395AE;
+}
+
+.introText {
     color: #FFFFFF;
 }
 
-#about {
-    height: 500px;
+.introHeading {
+    font-size: 48px;
 }
 
-#projects {
-    height: 500px;
+.navBar {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: sticky;
+    top: 0px;
+    margin: 0px;
+	padding: 0px;
+    background-color: #333333;
 }
 
-#contact {
-    height: 500px;
+.navItem {
+    display: inline-block;
+    margin: 0px;
+    padding: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    list-style-type: none;
 }
+
+.navItem:hover {
+    color: #7395AE;
+    transition-duration: 0.25s;
+}
+
+.fas {
+    margin-right: 4px;
+}
+
+.current {
+    color: #FFFFFF;
+    background-color: #C0C0C0;
+}
+
+.footer {
+    height: 96px;
+    background-color: #333333;
+}
+
+.footerSpace {
+    height: 24px;
+}
+
+.arrowContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+}
+
+.arrow {
+    box-sizing: border-box;
+    height: 32px;
+    width: 32px;
+    border: solid #FFFFFF;
+    border-width: 0px 1px 1px 0px;
+    transform: rotate(225deg);
+    transition: border-width 0.125s ease-in-out;
+  }
+  
+  .arrow:hover {
+    border-bottom-width: 4px;
+    border-right-width: 4px;
+  }
