@@ -1,26 +1,26 @@
 .contactSection {
     display: flex;
     justify-content: center;
-    padding: 64px;
+    padding: 64px 0px;
     background-color: #555555;
 }
 
-.contactText {
+.contactContent {
     text-align: center;
-    width: 60%;
-    color: #FFFFFF;
+    width: 66%;
+    color: #F7F9FB;
 }
 
 .contactHeading {
     font-size: 32px;
-    margin-bottom: 32px;
 }
 
 .contactDivider {
-    width: 20%;
+    width: 5%;
     margin-left: auto;
     margin-right: auto;
-    border-bottom: 3px solid #FFFFFF;
+    margin-top: 32px;
+    border-bottom: 3px solid #8FC1E3;
 }
 
 .contactParagraph {
@@ -28,17 +28,15 @@
     margin-top: 32px;
 }
 
+/*
 .contactLinks {
-    display: grid;
 }
+*/
 
 .contactItem {
+    display: block;
     text-decoration: none;
     font-size: 24px;
     margin-top: 32px;
     color: #FFFFFF;
-}
-
-i {
-    padding-right: 8px;
 }
