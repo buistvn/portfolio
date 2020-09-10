@@ -30,22 +30,28 @@
 }
 
 .projectsTemplate {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     flex: 0 1 47.5%;
     margin-top: 48px;
     border: 1px solid #DDDDDD;
-    border-radius: 4px;
+    border-radius: 2px;
     background-color: #F7F9FB;
+}
+
+.projectsDisplay {
+    max-height: auto;
+    max-width: 100%;
 }
 
 .projectsImage {
     max-height: auto;
     max-width: 100%;
-    border-radius: 4px 4px 0px 0px;
+    border-radius: 2px 2px 0px 0px;
 }
 
 .projectsText {
-    padding: 48px;
+    padding: 32px;
     color: #333333;
 }
 

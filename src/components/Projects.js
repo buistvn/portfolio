@@ -12,26 +12,13 @@ function Projects() {
                 <div className="projectsContainer">
                     <div className="projectsTemplate">
                         <div className="projectsDisplay">
-                            <img src={CLOUDVOTE} className="projectsImage" alt="CLOUDVOTE"></img>
-                        </div>
-                        <div className="projectsText">
-                            <h2 className="projectsName">Discord Bot</h2>
-                            <p className="projectsDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et. Mauris augue neque gravida in fermentum et. Vel fringilla est ullamcorper eget nulla.</p>
-                            <div className="projectsSkills">
-                                <div className="projectsSkill">HTML</div>
-                            </div>
-                            <div className="projectsLinks">
-                                <a href="#a" className="projectsRepository"><i className="fab fa-github"></i>Repository</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="projectsTemplate">
-                        <div className="projectsDisplay">
                             <img src={Portfolio} className="projectsImage" alt="Portfolio"></img>
                         </div>
                         <div className="projectsText">
                             <h2 className="projectsName">Portfolio</h2>
-                            <p className="projectsDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et. Mauris augue neque gravida in fermentum et. Vel fringilla est ullamcorper eget nulla.</p>
+                            <p className="projectsDescription">You're here!
+                                Hosted with GitHub Pages, this personal website was designed for showcasing some of the projects that I've been working on.
+                            </p>
                             <div className="projectsSkills">
                                 <div className="projectsSkill">HTML</div>
                                 <div className="projectsSkill">CSS</div>
@@ -50,7 +37,9 @@ function Projects() {
                         </div>
                         <div className="projectsText">
                             <h2 className="projectsName">CLOUDVOTE</h2>
-                            <p className="projectsDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant morbi tristique senectus et. Mauris augue neque gravida in fermentum et. Vel fringilla est ullamcorper eget nulla.</p>
+                            <p className="projectsDescription">CLOUDVOTE initially started out as an idea for a group project.
+                                As a team of three, we set out to create an interactive voting website that allows users to create proposals for issues that they care about. 
+                            </p>
                             <div className="projectsSkills">
                                 <div className="projectsSkill">HTML</div>
                                 <div className="projectsSkill">CSS</div>
