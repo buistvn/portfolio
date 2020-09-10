@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Scrollspy from 'react-scrollspy';
 import './App.css';
 
 import Intro from './components/Intro';
@@ -24,11 +23,11 @@ function App() {
     return (
         <div id="app">
             <div className={navbar ? 'navbar active' : 'navbar'}>
-                <Scrollspy className="navItems" items={ ['about', 'projects', 'contact'] } currentClassName="current">
+                <div className="navItems">
                     <a href="#about" className="navItem">About</a>
                     <a href="#projects" className="navItem">Projects</a>
                     <a href="#contact" className="navItem">Contact</a>
-                </Scrollspy>
+                </div>
             </div>
             <div className="header">
                 <section id="intro">

@@ -6,7 +6,7 @@ function Intro() {
     const particlesOptions = {
         particles: {
             number: {
-                value: 80,
+                value: 100,
                 density: {
                     enable: false
                 }
@@ -27,7 +27,6 @@ function Intro() {
             <Particles className="introParticles" params={particlesOptions} />
             <div className="introContent">
                 <h1 className="introHeading">STEVEN BUI</h1>
-                <p className="introParagraph">Software Engineer</p>
             </div>
         </div>
     );

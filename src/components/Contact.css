@@ -28,15 +28,27 @@
     margin-top: 32px;
 }
 
-/*
-.contactLinks {
-}
-*/
-
 .contactItem {
-    display: block;
     text-decoration: none;
     font-size: 24px;
     margin-top: 32px;
     color: #FFFFFF;
+    line-height: 32px;
+}
+
+.contactItem:hover {
+    text-decoration: underline;
+    transition-duration: 0.25s;
+}
+
+@media(max-width: 900px) {
+    .contactContent {
+        width: 90%;
+    }
+    .contactParagraph {
+        font-size: 16px;
+    }
+    .contactItem {
+        font-size: 16px;
+    }
 }

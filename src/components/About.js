@@ -7,8 +7,10 @@ function About() {
             <div className="aboutContent">
                 <h1 className="aboutHeading">ABOUT</h1>
                 <div className="aboutDivider"></div>
-                <p className="aboutParagraph">Hi, I'm currently a Computer Science major at Oregon State University. 
-                Web development has been an enjoyable learning experience and I'm excited to explore other fields of Computer Science. 
+                <p className="aboutParagraph">Hi, I'm Steven. 
+                I'm currently a Computer Science student at Oregon State University. 
+                Since high school, I became interested in programming with a focus in software engineering and web development.
+                I'm also excited to explore other fields of Computer Science such as artificial intelligence and computer vision. 
                 You can check out some of the projects I've been working on below.</p>
             </div>
         </div>

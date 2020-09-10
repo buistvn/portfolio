@@ -3,10 +3,14 @@ html {
 }
 
 body, div, h1, h2, h3, h4, h5, h6, p {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Karla', sans-serif;
     margin: 0px;
     padding: 0px;
     border: 0px;
+}
+
+i {
+    margin-right: 8px;
 }
 
 .navbar {
@@ -23,11 +27,11 @@ body, div, h1, h2, h3, h4, h5, h6, p {
 
 .navbar.active {
     background-color: #333333;
-    transition-duration: 0.25s;
+    transition-duration: 0.5s;
 }
 
 .navItems {
-    width: 66%;
+    text-align: center;
     margin: 0px;
 	padding: 0px;
 }
@@ -46,13 +50,11 @@ body, div, h1, h2, h3, h4, h5, h6, p {
     transition-duration: 0.25s;
 }
 
-i {
-    margin-right: 4px;
-}
-
+/*
 .current {
     background-color: #555555;
 }
+*/
 
 .footer {
     height: 96px;
@@ -78,9 +80,9 @@ i {
     border-width: 0px 1px 1px 0px;
     transform: rotate(225deg);
     transition: border-width 0.125s ease-in-out;
-  }
+}
   
-  .arrow:hover {
+.arrow:hover {
     border-bottom-width: 4px;
     border-right-width: 4px;
-  }
+}
