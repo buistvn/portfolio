@@ -15,6 +15,24 @@ function Projects() {
                             <img src={Portfolio} className="projectsImage" alt="Portfolio"></img>
                         </div>
                         <div className="projectsText">
+                            <h2 className="projectsName">Lainavi</h2>
+                            <p className="projectsDescription">Lainavi is a multi function Discord bot which was built for my friend group's server.
+                                This fun bot comes with features and commands regarding moderation, alerts, music, and gaming.
+                            </p>
+                            <div className="projectsSkills">
+                                <div className="projectsSkill">JavaScript</div>
+                                <div className="projectsSkill">discord.js</div>
+                            </div>
+                            <div className="projectsLinks">
+                                <a href="https://github.com/buistvn/lainavi-bot" className="projectsRepository"><i className="fab fa-github"></i>Repository</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="projectsTemplate">
+                        <div className="projectsDisplay">
+                            <img src={Portfolio} className="projectsImage" alt="Portfolio"></img>
+                        </div>
+                        <div className="projectsText">
                             <h2 className="projectsName">Portfolio</h2>
                             <p className="projectsDescription">You're here!
                                 Hosted with GitHub Pages, this personal website was designed for showcasing some of the projects that I've been working on.

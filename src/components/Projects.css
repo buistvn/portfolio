@@ -79,6 +79,8 @@
 }
 
 .projectsLiveDemo {
+    display: flex;
+    align-items: center;
     text-decoration: none;
     margin-right: 16px;
     padding: 12px;
@@ -93,6 +95,8 @@
 }
 
 .projectsRepository {
+    display: flex;
+    align-items: center;
     text-decoration: none;
     padding: 12px;
     border: 1px solid #DDDDDD;
@@ -107,6 +111,15 @@
 }
 
 @media(max-width: 1200px) {
+    .projectsContent {
+        width: 66%;
+    }
+    .projectsTemplate {
+        flex: 0 1 100%;
+    }
+}
+
+@media(max-width: 900px) {
     .projectsContent {
         width: 90%;
     }
