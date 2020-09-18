@@ -1,5 +1,6 @@
 import React from 'react';
 import './Projects.css';
+import Lainavi from '../images/Lainavi.png';
 import Portfolio from '../images/Portfolio.png';
 import CLOUDVOTE from '../images/CLOUDVOTE.png';
 
@@ -12,16 +13,18 @@ function Projects() {
                 <div className="projectsContainer">
                     <div className="projectsTemplate">
                         <div className="projectsDisplay">
-                            <img src={Portfolio} className="projectsImage" alt="Portfolio"></img>
+                            <img src={Lainavi} className="projectsImage" alt="Lainavi"></img>
                         </div>
                         <div className="projectsText">
                             <h2 className="projectsName">Lainavi</h2>
-                            <p className="projectsDescription">Lainavi is a multi function Discord bot which was built for my friend group's server.
-                                This fun bot comes with features and commands regarding moderation, alerts, music, and gaming.
+                            <p className="projectsDescription">Lainavi is a multi function Discord bot that was built for my personal server.
+                                This fun bot comes with features and commands for moderation, alerts, and gaming. 
+                                Using the Riot Games API, the bot offers information about players' stats and match histories for League of Legends.
                             </p>
                             <div className="projectsSkills">
                                 <div className="projectsSkill">JavaScript</div>
                                 <div className="projectsSkill">discord.js</div>
+                                <div className="projectsSkill">LeagueJS</div>
                             </div>
                             <div className="projectsLinks">
                                 <a href="https://github.com/buistvn/lainavi-bot" className="projectsRepository"><i className="fab fa-github"></i>Repository</a>
@@ -35,7 +38,8 @@ function Projects() {
                         <div className="projectsText">
                             <h2 className="projectsName">Portfolio</h2>
                             <p className="projectsDescription">You're here!
-                                Hosted with GitHub Pages, this personal website was designed for showcasing some of the projects that I've been working on.
+                                Hosted with GitHub Pages, this website was designed for showcasing some of the projects that I've been working on.
+                                It also serves as a sandbox environment where I can try out and practice new web development techniques.
                             </p>
                             <div className="projectsSkills">
                                 <div className="projectsSkill">HTML</div>

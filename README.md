@@ -14,4 +14,4 @@ You will also see any lint errors in the console.
 
 ### `npm run deploy`
 
-Deploy the site after committing and pushing
+Updates and deploys the site to [here](https://buistvn.github.io/portfolio/) with GitHub Pages.
