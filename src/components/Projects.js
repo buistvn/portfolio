@@ -1,5 +1,6 @@
 import React from 'react';
 import './Projects.css';
+import WebScraper from '../images/Web Scraper.png'
 import Lainavi from '../images/Lainavi.png';
 import Portfolio from '../images/Portfolio.png';
 import CLOUDVOTE from '../images/CLOUDVOTE.png';
@@ -13,13 +14,32 @@ function Projects() {
                 <div className="projectsContainer">
                     <div className="projectsTemplate">
                         <div className="projectsDisplay">
+                            <img src={WebScraper} className="projectsImage" alt="WebScraper"></img>
+                        </div>
+                        <div className="projectsText">
+                            <h2 className="projectsName">Web Scraper</h2>
+                            <p className="projectsDescription">This tool takes the most popular films of the week from IMDb and extracts relevant data. 
+                                The films are sorted by popularity and average rating. 
+                                The sorted information is written to a separate output file for accessible viewing.
+                            </p>
+                            <div className="projectsSkills">
+                                <div className="projectsSkill">Python</div>
+                                <div className="projectsSkill">BeautifulSoup</div>
+                            </div>
+                            <div className="projectsLinks">
+                                <a href="https://github.com/buistvn/web-scraper-tool" className="projectsRepository"><i className="fab fa-github"></i>Repository</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="projectsTemplate">
+                        <div className="projectsDisplay">
                             <img src={Lainavi} className="projectsImage" alt="Lainavi"></img>
                         </div>
                         <div className="projectsText">
                             <h2 className="projectsName">Lainavi</h2>
-                            <p className="projectsDescription">Lainavi is a multi function Discord bot that was built for my personal server.
-                                This fun bot comes with features and commands for moderation, alerts, and gaming. 
-                                Using the Riot Games API, the bot offers information about players' stats and match histories for League of Legends.
+                            <p className="projectsDescription">Lainavi is a multi function Discord bot that was built for a friend's server.
+                                It comes with features and commands for moderation, alerts, and gaming. 
+                                Using the Riot Games API, the bot offers information about players' stats for League of Legends.
                             </p>
                             <div className="projectsSkills">
                                 <div className="projectsSkill">JavaScript</div>
@@ -39,7 +59,7 @@ function Projects() {
                             <h2 className="projectsName">Portfolio</h2>
                             <p className="projectsDescription">You're here!
                                 Hosted with GitHub Pages, this website was designed for showcasing some of the projects that I've been working on.
-                                It also serves as a sandbox environment where I can try out and practice new web development techniques.
+                                It also serves as a sandbox environment where I can try out new web development ideas.
                             </p>
                             <div className="projectsSkills">
                                 <div className="projectsSkill">HTML</div>
@@ -48,7 +68,6 @@ function Projects() {
                                 <div className="projectsSkill">React</div>
                             </div>
                             <div className="projectsLinks">
-                                <a href="https://buistvn.github.io/portfolio/" className="projectsLiveDemo"><i className="fas fa-external-link-alt"></i>Live Demo</a>
                                 <a href="https://github.com/buistvn/portfolio" className="projectsRepository"><i className="fab fa-github"></i>Repository</a>
                             </div>
                         </div>
