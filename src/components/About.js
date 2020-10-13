@@ -8,13 +8,13 @@ function About() {
                 <h1 className="aboutHeading">ABOUT</h1>
                 <div className="aboutDivider"></div>
                 <p className="aboutParagraph">Hi, I'm Steven. 
-                    I'm currently a Computer Science student at Oregon State University. 
-                    Since high school, I became interested in programming with a focus in software engineering and web development.
-                    I'm also excited to explore other fields of Computer Science such as artificial intelligence and computer vision.
+                    I'm currently a third year student at Oregon State University studying Computer Science. 
+                    Since high school, I became interested in programming with a focus in software engineering.
+                    I'm excited to explore all of the fascinating things that can be done with coding.
+                    In the meantime, I've been working on side projects to learn new tools and technologies which you can check out below!
                 </p>
             </div>
         </div>
-        
     );
 }
 
