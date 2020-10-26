@@ -45,6 +45,7 @@ function App() {
                     <Contact />
                 </section>
             </div>
+            {/* }
             <div className="footer">
                 <div className="footerSpace"></div>
                 <div className="arrowContainer">
@@ -53,6 +54,7 @@ function App() {
                     </a>
                 </div>
             </div>
+            */ }
         </div>
     );
 }

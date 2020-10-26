@@ -54,7 +54,6 @@ i {
 .current {
     background-color: #555555;
 }
-*/
 
 .footer {
     height: 96px;
@@ -86,6 +85,7 @@ i {
     border-bottom-width: 4px;
     border-right-width: 4px;
 }
+*/
 
 @media(max-width: 900px) {
     .navItems {

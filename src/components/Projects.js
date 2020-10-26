@@ -19,7 +19,7 @@ function Projects() {
                         <div className="projectsText">
                             <h2 className="projectsName">Web Scraper</h2>
                             <p className="projectsDescription">This tool takes the most popular films of the week from IMDb and extracts relevant data. 
-                                The films are sorted by popularity and average rating. 
+                                The films are sorted by popularity ranking, title, release date, and average rating. 
                                 The sorted information is written to a separate output file for accessible viewing.
                             </p>
                             <div className="projectsSkills">
@@ -78,8 +78,8 @@ function Projects() {
                         </div>
                         <div className="projectsText">
                             <h2 className="projectsName">CLOUDVOTE</h2>
-                            <p className="projectsDescription">CLOUDVOTE initially started out as an idea for a group project.
-                                As a team of three, we set out to create an interactive voting website that allows users to create proposals for issues that they care about. 
+                            <p className="projectsDescription">CLOUDVOTE is an interactive voting website that allows users to create proposals for issues that they care about.
+                                As a group project, we worked together to implement a secure login system and produce a clean and easy-to-use UI/UX design.
                             </p>
                             <div className="projectsSkills">
                                 <div className="projectsSkill">HTML</div>
