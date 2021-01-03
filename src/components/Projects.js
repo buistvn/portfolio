@@ -3,7 +3,7 @@ import './Projects.css';
 import WebScraper from '../images/Web Scraper.png'
 import Lainavi from '../images/Lainavi.png';
 import Portfolio from '../images/Portfolio.png';
-import CLOUDVOTE from '../images/CLOUDVOTE.png';
+import Cloudvote from '../images/Cloudvote.png';
 
 function Projects() {
     return (
@@ -18,13 +18,14 @@ function Projects() {
                         </div>
                         <div className="projectsText">
                             <h2 className="projectsName">Web Scraper</h2>
-                            <p className="projectsDescription">This tool takes the most popular films of the week from IMDb and extracts relevant data. 
-                                The films are sorted by popularity ranking, title, release date, and average rating. 
-                                The sorted information is written to a separate output file for accessible viewing.
+                            <p className="projectsDescription">This tool takes the most popular films of the week from IMDb and extracts relevant data.
+                                The list of films is stored in a database which can be accessed with MySQL.
+                                The data can be sorted by popularity ranking, title, release date, and average rating.
                             </p>
                             <div className="projectsSkills">
                                 <div className="projectsSkill">Python</div>
                                 <div className="projectsSkill">BeautifulSoup</div>
+                                <div className="projectsSkill">MySQL</div>
                             </div>
                             <div className="projectsLinks">
                                 <a href="https://github.com/buistvn/web-scraper-tool" className="projectsRepository"><i className="fab fa-github"></i>Repository</a>
@@ -74,11 +75,11 @@ function Projects() {
                     </div>
                     <div className="projectsTemplate">
                         <div className="projectsDisplay">
-                            <img src={CLOUDVOTE} className="projectsImage" alt="CLOUDVOTE"></img>
+                            <img src={Cloudvote} className="projectsImage" alt="Cloudvote"></img>
                         </div>
                         <div className="projectsText">
-                            <h2 className="projectsName">CLOUDVOTE</h2>
-                            <p className="projectsDescription">CLOUDVOTE is an interactive voting website that allows users to create proposals for issues that they care about.
+                            <h2 className="projectsName">Cloudvote</h2>
+                            <p className="projectsDescription">Cloudvote is an interactive voting website that allows users to create proposals for issues that they care about.
                                 As a group project, we worked together to implement a secure login system and produce a clean and easy-to-use UI/UX design.
                             </p>
                             <div className="projectsSkills">
