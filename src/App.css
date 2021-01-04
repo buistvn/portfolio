@@ -20,8 +20,6 @@ i {
     position: sticky;
     z-index: 3;
     top: 0px;
-    margin: 0px;
-	padding: 0px;
     background-color: #31708E;
 }
 
@@ -32,60 +30,20 @@ i {
 
 .navItems {
     width: 66%;
-    margin: 0px;
-	padding: 0px;
 }
 
 .navItem {
     display: inline-block;
-    margin: 0px;
-    padding: 16px;
-    color: #F7F9FB;
     text-decoration: none;
     list-style-type: none;
+    margin: 16px;
+    color: #F7F9FB;
 }
 
 .navItem:hover {
     text-decoration: underline;
     transition-duration: 0.25s;
 }
-
-/*
-.current {
-    background-color: #555555;
-}
-
-.footer {
-    height: 96px;
-    background-color: #333333;
-}
-
-.footerSpace {
-    height: 24px;
-}
-
-.arrowContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 64px;
-}
-
-.arrow {
-    box-sizing: border-box;
-    height: 32px;
-    width: 32px;
-    border: solid #F7F9FB;
-    border-width: 0px 1px 1px 0px;
-    transform: rotate(225deg);
-    transition: border-width 0.125s ease-in-out;
-}
-  
-.arrow:hover {
-    border-bottom-width: 4px;
-    border-right-width: 4px;
-}
-*/
 
 @media(max-width: 900px) {
     .navItems {

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './App.css';
-
 import Intro from './components/Intro';
 import About from './components/About';
 import Projects from './components/Projects';
@@ -45,16 +44,6 @@ function App() {
                     <Contact />
                 </section>
             </div>
-            {/* }
-            <div className="footer">
-                <div className="footerSpace"></div>
-                <div className="arrowContainer">
-                    <a href="#app">
-                        <div className="arrow"></div>
-                    </a>
-                </div>
-            </div>
-            */ }
         </div>
     );
 }
