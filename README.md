@@ -1,5 +1,5 @@
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Portfolio
 
 ![Project Screenshot][project-screenshot]
 
@@ -36,7 +36,7 @@ To get a local copy up and running follow these simple steps.
 
 
 
-<!-- USAGE EXAMPLES -->
+<!-- USAGE -->
 ## Usage
 
 * Run the app in [development mode](http://localhost:3000/)
