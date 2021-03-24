@@ -3,7 +3,7 @@
 
 ![Project Screenshot][project-screenshot]
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This personal portfolio is for providing information about myself and showcasing some of the projects that I've been working on. It also serves as a sandbox environment where I can try out new web development ideas.
 
 ### Built With
 
@@ -14,7 +14,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple steps.
+To get a local copy up and running, follow these simple steps.
 
 ### Prerequisites
 

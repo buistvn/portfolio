@@ -18,9 +18,9 @@ function Projects() {
                         </div>
                         <div className="projectsText">
                             <h2 className="projectsName">Web Scraper</h2>
-                            <p className="projectsDescription">This tool takes the most popular films of the week from IMDb and extracts relevant data.
-                                The list of films is stored in a database which can be accessed with MySQL.
-                                The data can be sorted by popularity ranking, title, release date, and average rating.
+                            <p className="projectsDescription">The web scraper is a tool that extracts relevant data from the most popular films of the week on IMDb.
+                                The data is stored in a MySQL database and written to a .csv output file.
+                                It can also be sorted by popularity ranking, title, release date, and average rating.
                             </p>
                             <div className="projectsSkills">
                                 <div className="projectsSkill">Python</div>
@@ -28,7 +28,7 @@ function Projects() {
                                 <div className="projectsSkill">MySQL</div>
                             </div>
                             <div className="projectsLinks">
-                                <a href="https://github.com/buistvn/web-scraper-tool" className="projectsRepository"><i className="fab fa-github"></i>Repository</a>
+                                <a href="https://github.com/buistvn/web-scraper" className="projectsRepository"><i className="fab fa-github"></i>Repository</a>
                             </div>
                         </div>
                     </div>
@@ -38,9 +38,9 @@ function Projects() {
                         </div>
                         <div className="projectsText">
                             <h2 className="projectsName">Lainavi</h2>
-                            <p className="projectsDescription">Lainavi is a multi function Discord bot that was built for a friend's server.
-                                It comes with features and commands for moderation, alerts, and gaming. 
-                                Using the Riot Games API, the bot offers information about players' stats for League of Legends.
+                            <p className="projectsDescription">Lainavi is a multi-function Discord bot that was built for the purpose of simplifying tasks. 
+                                It comes with custom commands for moderation, alerts, and gaming. 
+                                Using the Riot Games API, the bot can access and display data about players' stats for League of Legends.
                             </p>
                             <div className="projectsSkills">
                                 <div className="projectsSkill">JavaScript</div>
@@ -48,7 +48,7 @@ function Projects() {
                                 <div className="projectsSkill">LeagueJS</div>
                             </div>
                             <div className="projectsLinks">
-                                <a href="https://github.com/buistvn/lainavi-bot" className="projectsRepository"><i className="fab fa-github"></i>Repository</a>
+                                <a href="https://github.com/buistvn/lainavi" className="projectsRepository"><i className="fab fa-github"></i>Repository</a>
                             </div>
                         </div>
                     </div>
@@ -59,7 +59,7 @@ function Projects() {
                         <div className="projectsText">
                             <h2 className="projectsName">Portfolio</h2>
                             <p className="projectsDescription">You're here!
-                                Hosted with GitHub Pages, this website was designed for showcasing some of the projects that I've been working on.
+                                This personal portfolio is for providing information about myself and showcasing some of the projects that I've been working on.
                                 It also serves as a sandbox environment where I can try out new web development ideas.
                             </p>
                             <div className="projectsSkills">
