@@ -1,16 +1,55 @@
-# Portfolio
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).<br />
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-In the project directory, you can run:
+![Project Screenshot][project-screenshot]
 
-### `npm start`
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Built With
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+* [React](https://reactjs.org/)
 
-### `npm run deploy`
 
-Updates and deploys the site to [here](https://buistvn.github.io/portfolio/) with GitHub Pages.
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+To get a local copy up and running follow these simple steps.
+
+### Prerequisites
+
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/buistvn/portfolio.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+* Run the app in [development mode](http://localhost:3000/)
+  ```sh
+  npm start
+  ```
+* Generate a production build and deploy it to GitHub Pages
+  ```sh
+  npm run deploy
+  ```
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[project-screenshot]: images/Portfolio.png
