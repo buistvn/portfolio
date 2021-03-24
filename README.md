@@ -1,5 +1,5 @@
 <!-- ABOUT THE PROJECT -->
-## Portfolio
+# Portfolio
 
 ![Project Screenshot][project-screenshot]
 
@@ -14,7 +14,7 @@ This personal portfolio is for providing information about myself and showcasing
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running, follow these simple steps.
+To get a local copy up and running, follow these instructions.
 
 ### Prerequisites
 
@@ -29,7 +29,7 @@ To get a local copy up and running, follow these simple steps.
    ```sh
    git clone https://github.com/buistvn/portfolio.git
    ```
-2. Install NPM packages
+2. Install packages
    ```sh
    npm install
    ```
@@ -43,7 +43,7 @@ To get a local copy up and running, follow these simple steps.
   ```sh
   npm start
   ```
-* Generate a production build and deploy it to GitHub Pages
+* Generate a production build and deploy it to [GitHub Pages](https://buistvn.github.io/portfolio/)
   ```sh
   npm run deploy
   ```
@@ -51,5 +51,4 @@ To get a local copy up and running, follow these simple steps.
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [project-screenshot]: images/Portfolio.png

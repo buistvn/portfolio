@@ -1,6 +1,6 @@
 import React from 'react';
 import './Projects.css';
-import WebScraper from '../images/Web Scraper.png'
+import WebScraper from '../images/WebScraper.png'
 import Lainavi from '../images/Lainavi.png';
 import Portfolio from '../images/Portfolio.png';
 import Cloudvote from '../images/Cloudvote.png';
@@ -24,8 +24,8 @@ function Projects() {
                             </p>
                             <div className="projectsSkills">
                                 <div className="projectsSkill">Python</div>
-                                <div className="projectsSkill">BeautifulSoup</div>
                                 <div className="projectsSkill">MySQL</div>
+                                <div className="projectsSkill">BeautifulSoup</div>
                             </div>
                             <div className="projectsLinks">
                                 <a href="https://github.com/buistvn/web-scraper" className="projectsRepository"><i className="fab fa-github"></i>Repository</a>
