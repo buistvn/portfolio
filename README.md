@@ -1,11 +1,14 @@
-<!-- ABOUT THE PROJECT -->
+<!-- PROJECT -->
 # Portfolio
 
 ![Project Screenshot][project-screenshot]
 
 This personal portfolio is for providing information about myself and showcasing some of the projects that I've been working on. It also serves as a sandbox environment where I can try out new web development ideas.
 
-### Built With
+
+
+<!-- BUILT WITH -->
+## Built With
 
 * [React](https://reactjs.org/)
 
@@ -50,5 +53,5 @@ To get a local copy up and running, follow these instructions.
 
 
 
-<!-- MARKDOWN LINKS & IMAGES -->
+<!-- LINKS & IMAGES -->
 [project-screenshot]: images/Portfolio.png
